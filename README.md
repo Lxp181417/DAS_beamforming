@@ -1,2 +1,2 @@
 # DAS_beamforming
-Be used to save files about DAS beamforming
+项目中包含了波束合成程序、频谱绘制函数、滤波函数以及结果测试程序等。其中通道数据存储在sensor_data数组中，sensor_dat[m][e][k]表示第e次发射、第k次接收、第m个采样点，RF是合成的波束数据。DAS.m程序中包含了数据的读取、DAS波束合成、加窗、滤波、超声图像重建以及重建图像FWHM计算。RDAS.m程序中包含了数据的读取、RDAS波束合成、、加窗、滤波、超声图像重建以及重建图像FWHM计算。程序中的DOA_window是计算得到的波达方向窗函数。
